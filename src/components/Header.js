@@ -4,7 +4,7 @@ import React from 'react';
 
 const Header = () => {
   return (
-    <header className="bg-gray-800 text-white py-4 shadow-lg">
+    <header className="bg-red-800 text-white py-4 shadow-lg">
       <div className="container mx-auto flex justify-between items-center">
         <h1 className="text-2xl font-bold">Shubham Dhungana</h1>
         <nav>

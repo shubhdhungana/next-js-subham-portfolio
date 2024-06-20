@@ -23,7 +23,7 @@ const skills = [
 
 const Skills = () => {
   return (
-    <section id="skills" className="py-20 bg-white text-gray-800">
+    <section id="skills" className="py-20 bg-blue-100 text-gray-800">
       <div className="container mx-auto">
         <h2 className="text-3xl font-bold mb-6 text-center">Skills</h2>
         <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
