@@ -24,7 +24,7 @@ const Education = () => {
         <h2 className="text-3xl font-bold mb-6 text-center">Education</h2>
         <ul>
           {education.map((edu, index) => (
-            <li key={index} className="mb-8">
+            <li key={index} className="mb-8 text-center">
               <h3 className="text-xl font-semibold">{edu.institution}</h3>
               <p className="text-gray-700">
                 {edu.degree} | {edu.tenure}

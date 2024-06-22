@@ -22,7 +22,7 @@ const Certifications = () => {
         <h2 className="text-3xl font-bold mb-6 text-center">Certifications</h2>
         <ul>
           {certifications.map((certification, index) => (
-            <li key={index} className="mb-4">
+            <li key={index} className="mb-4 text-center">
               <h3 className="text-xl font-semibold">{certification.title}</h3>
               <p className="text-gray-700">{certification.provider}</p>
               {certification.link && <a href={certification.link} className="text-blue-500 hover:underline" target="_blank" rel="noopener noreferrer">View Certification</a>}
