@@ -4,9 +4,14 @@ import React from "react";
 
 const projects = [
   {
+    title: "Meroday, Next JS",
+    github: "https://github.com/shubhdhungana/meroday",
+    live: "https://meroday.vercel.app/",
+  },
+  {
     title: "Next JS Weather App",
     github: "https://github.com/shubhdhungana/weather-app",
-    live: "https://weather-8q4tezw27-subh-dhunganas-projects.vercel.a",
+    live: "https://weather-8q4tezw27-subh-dhunganas-projects.vercel.app",
   },
   {
     title: "Next JS Portfolio website",
